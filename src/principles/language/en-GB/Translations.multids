@@ -1,0 +1,10 @@
+title: $:/plugins/linonetwo/principles/language/en-GB/
+
+Name: Principles
+Description: Record life principles as tiddlers and review them as needed.
+Configs/Description: These settings let you customise the behaviour of "Principles" plugin.
+Configs/PluginConfigs/Caption: Plugin Configs
+Configs/XXX/Caption: XXX
+Configs/XXX/Description: XXX is XXX
+Configs/YYY/Caption: YYY
+Configs/ZZZ/Caption: ZZZ

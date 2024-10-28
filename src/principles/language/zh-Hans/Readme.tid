@@ -1,0 +1,13 @@
+title: $:/plugins/linonetwo/principles/language/zh-Hans/Readme
+
+\procedure lingo-base() $:/plugins/linonetwo/principles/language/
+
+! <<lingo Name>>
+
+<<lingo Description>>
+
+[ext[原则|https://www.principles.com]]这本书是树形结构组织的，而且我希望每条原则都可以从你的日记或其它笔记条目中链接过来，通过[[Tidme插件|https://talk.tiddlywiki.org/t/1203]]间隔重复，所以本插件中整合了[[Streams插件|$:/plugins/linonetwo/streams-outliner-lib]]来进行原则的大纲输入。
+
+!! 使用方法
+
+打开原则布局，你会看到一个由[[Streams插件|$:/plugins/linonetwo/streams-outliner-lib]]提供的大纲UI。

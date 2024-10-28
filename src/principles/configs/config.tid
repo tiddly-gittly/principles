@@ -1,0 +1,26 @@
+title: $:/plugins/linonetwo/principles/config
+tags: $:/tags/ControlPanel/SettingsTab
+caption: <<lingo Name $:/plugins/linonetwo/principles/language/>>
+
+\procedure lingo-base() $:/plugins/linonetwo/principles/language/
+
+<<lingo ConfigDescription>>
+
+---
+
+!! <<lingo Configs/PluginConfigs/Caption>>
+
+;<<lingo Configs/XXX/Caption>>
+:<$checkbox tiddler="$:/plugins/linonetwo/principles/configs/xxx" field="text" checked="yes" unchecked=""> <<lingo Configs/XXX/Description>></$checkbox>
+;<<lingo Configs/YYY/Caption>>
+:<$select tiddler='$:/plugins/linonetwo/principles/configs/yyy'>
+	<option value='0'>Sunday</option>
+	<option value='1'>Monday</option>
+	<option value='2'>Tuesday</option>
+	<option value='3'>Wednesday</option>
+	<option value='4'>Thursday</option>
+	<option value='5'>Friday</option>
+	<option value='6'>Saturday</option>
+</$select>
+;<<lingo Configs/ZZZ/Caption>>
+:<$edit-text tiddler="$:/plugins/linonetwo/principles/configs/zzz" tabindex=-1 focus=false cancelPopups="yes" fileDrop=no tag="input" />

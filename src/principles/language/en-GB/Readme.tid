@@ -1,0 +1,13 @@
+title: $:/plugins/linonetwo/principles/language/en-GB/Readme
+
+\procedure lingo-base() $:/plugins/linonetwo/principles/language/
+
+! <<lingo Name>>
+
+<<lingo Description>>
+
+[ext[Principles|https://www.principles.com]] in the book is organized in tree structure, and I hope each could be linked from the diary or other notes, and revisit by [ext[tidme plugin|https://talk.tiddlywiki.org/t/1203]], so this plugin integrate the [[Streams plugin|$:/plugins/linonetwo/streams-outliner-lib]] to input the outline of principles.
+
+!! Usage
+
+Open the Principles layout, you will see an outline UI provided by the [[Streams plugin|$:/plugins/linonetwo/streams-outliner-lib]].

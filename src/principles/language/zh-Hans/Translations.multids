@@ -1,0 +1,10 @@
+title: $:/plugins/linonetwo/principles/language/zh-Hans/
+
+Name: 原则
+Description: 将人生原则记录成一个个条目，并时常复习。
+Configs/Description: 通过这些设置，您可以自定义「原则」插件的行为。
+Configs/PluginConfigs/Caption: 插件设置
+Configs/XXX/Caption: 配置甲
+Configs/XXX/Description: 配置甲是甲
+Configs/YYY/Caption: 配置乙
+Configs/ZZZ/Caption: 配置丙
