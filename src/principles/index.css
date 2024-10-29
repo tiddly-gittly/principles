@@ -1,6 +1,21 @@
+/* Center the area, make it feels like a formal paper */
 .principles-container {
   height: 100vh;
-  width: 80vw;
-  margin-left: 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-top: 2em;
+  overflow-x: visible;
+  overflow-y: auto;
+}
+/* Center the header, and make it classical and formal */
+.principles-container h1 {
+  text-align: center;
+  font-family: 
+  /* English classical fonts */ 'Garamond', 'Times New Roman',
+    Times, serif, /* Chinese classical fonts */ 'KaiTi', 'STKaiti', 'Songti SC',
+    'SimSun', 'NSimSun', 'FangSong', 'STSong', serif;
+  font-size: 2em;
+  font-weight: normal;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
 }

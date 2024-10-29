@@ -9,6 +9,7 @@ tags: $:/tags/Layout
 \define containerClasses()
 tc-page-container tc-language-$(languageTitle)$ principles-container
 \end
+\procedure lingo-base() $:/plugins/linonetwo/principles/language/
 
 \procedure redirected-navigate-actions()
   <$action-setfield $tiddler="$:/layout" text="" />
@@ -20,6 +21,7 @@ tc-page-container tc-language-$(languageTitle)$ principles-container
 		{{$:/core/ui/CommandPaletteTemplate}}
 		<div class=<<containerClasses>>>
 			<main>
+				<h1><<lingo Name>></h1>
 				{{$:/plugins/linonetwo/principles/UI/principle-outline}}
 			</main>
 		</div>
