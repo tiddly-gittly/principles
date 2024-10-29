@@ -7,6 +7,8 @@ title: $:/plugins/linonetwo/principles/language/zh-Hans/Readme
 
 <<lingo Description>>
 
+这个插件让你可以以大纲的形式记录你的人生原则，并通过间隔重复技术将它们像思想钢印一样铭刻在你的大脑中，从而能对自己编程，从错误中学习，不断进步。
+
 [ext[原则|https://www.principles.com]]这本书是树形结构组织的，而且我希望每条原则都可以从你的日记或其它笔记条目中链接过来，通过[[Tidme插件|$:/plugins/tidme/fsrs4tw]]间隔重复，所以本插件中整合了[[Streams插件|$:/plugins/linonetwo/streams-outliner-lib]]来进行原则的大纲输入。
 
 !! 使用方法

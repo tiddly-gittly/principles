@@ -7,6 +7,8 @@ title: $:/plugins/linonetwo/principles/language/en-GB/Readme
 
 <<lingo Description>>
 
+This plugin allows you to record your life principles in the form of an outline, and engrave them in your brain like a mental steel stamp through spaced repetition technique, so that you can program yourself, learn from mistakes, and keep improving.
+
 [ext[Principles|https://www.principles.com]] in the book is organized in tree structure, and I hope each could be linked from the diary or other notes, and revisit by [ext[Tidme plugin|$:/plugins/tidme/fsrs4tw]], so this plugin integrate the [[Streams plugin|$:/plugins/linonetwo/streams-outliner-lib]] to input the outline of principles.
 
 !! Usage
