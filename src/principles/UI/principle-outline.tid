@@ -1,9 +1,11 @@
 title: $:/plugins/linonetwo/principles/UI/principle-outline
 
 <$wikify name="defaultRootTiddler" text="<<lingo Name $:/plugins/linonetwo/principles/language/>>">
-<$transclude
-  $variable="stream-outliner"
-  currentTiddler=<<defaultRootTiddler>>
-  newNodeTitle="<<stream-root-title>>-<<now [UTC]YYYY0MM0DD0hh0mm0ssXXX>>"
-/>
+  <$set name="rootTiddler" value={{$:/plugins/linonetwo/principles/configs/RootTiddler}} emptyValue=<<defaultRootTiddler>>>
+    <$transclude
+      $variable="stream-outliner"
+      currentTiddler=<<rootTiddler>>
+      newNodeTitle="<<stream-root-title>>-<<now [UTC]YYYY0MM0DD0hh0mm0ssXXX>>"
+    />
+  </$set>
 </$wikify>
