@@ -4,7 +4,5 @@ Name: 原则
 Description: 将人生原则记录成一个个条目，并时常复习。
 Configs/Description: 通过这些设置，您可以自定义「原则」插件的行为。
 Configs/PluginConfigs/Caption: 插件设置
-Configs/XXX/Caption: 配置甲
-Configs/XXX/Description: 配置甲是甲
-Configs/YYY/Caption: 配置乙
-Configs/ZZZ/Caption: 配置丙
+Configs/RootTiddler/Caption: 根节点条目名
+Configs/RootTiddler/Description: 默认使用「<<defaultRootTiddler>>」，所有大纲节点的条目名都会存储在这个条目的 `stream-list` 字段中，供索引使用。你可以修改为其它你喜欢的条目名。
