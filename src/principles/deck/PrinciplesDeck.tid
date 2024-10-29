@@ -1,7 +1,7 @@
 caption: <<lingo Deck/Name $:/plugins/linonetwo/principles/language/>>
 card: [linonetwo.principles[]]
 card_exclude: [tag[!]]
-card_unfold: [tag[.]]
+card_unfold: [linonetwo.principles[]]
 description: <<lingo Deck/Description $:/plugins/linonetwo/principles/language/>>
 exclude_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/exclude}}
 leech_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/exclude}}
