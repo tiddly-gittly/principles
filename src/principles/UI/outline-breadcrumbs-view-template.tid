@@ -3,11 +3,7 @@ list-before: $:/core/ui/ViewTemplate/body
 title: $:/plugins/linonetwo/principles/UI/outline-breadcrumbs-view-template
 
 <%if [<currentTiddler>has[stream-type]] %>
-  <$wikify name="defaultRootTiddler" text="<<lingo Name $:/plugins/linonetwo/principles/language/>>">
-    <$set name="rootTiddler" value={{$:/plugins/linonetwo/principles/configs/RootTiddler}} emptyValue=<<defaultRootTiddler>>>
-      <%if [<rootTiddler>get-stream-nodes[]title<currentTiddler>] %>
-        <<stream-show-breadcrumbs>>
-      <%endif%>
-    </$set>
-  </$wikify>
+  <%if [linonetwo.principles[]title<currentTiddler>] %>
+    <<stream-show-breadcrumbs>>
+  <%endif%>
 <%endif%>
