@@ -5,7 +5,7 @@ description: <<lingo Description $:/plugins/linonetwo/principles/language/>>
 tags: $:/tags/Layout
 
 \whitespace trim
-\import [subfilter{$:/core/config/GlobalImportFilter}]
+\import [subfilter{$:/core/config/GlobalImportFilter}] [[$:/plugins/linonetwo/principles/layout/back-to-standard-layout]]
 \define containerClasses()
 tc-page-container tc-language-$(languageTitle)$ principles-container
 \end
@@ -20,6 +20,7 @@ tc-page-container tc-language-$(languageTitle)$ principles-container
 	<$messagecatcher $tm-navigate=<<redirected-navigate-actions>>>
 		{{$:/core/ui/CommandPaletteTemplate}}
 		<div class=<<containerClasses>>>
+			<<back-to-standard-layout-button>>
 			<main>
 				<h1><<lingo Name>></h1>
 				{{$:/plugins/linonetwo/principles/UI/principle-outline}}

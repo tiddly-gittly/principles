@@ -1,0 +1,25 @@
+title: $:/plugins/linonetwo/principles/layout/back-to-standard-layout
+
+\procedure back-to-standard-layout-button()
+  <$button class="principles-back-to-standard-layout-button">
+    <$action-setfield
+      $tiddler="$:/layout"
+      text=""
+      $timestamp="no"
+    />
+    {{$:/core/images/standard-layout}}
+    <<lingo BackToStandardLayout>>
+  </$button>
+\end
+
+\procedure open-principles-layout-button()
+  <$button>
+    <$action-setfield
+      $tiddler="$:/layout"
+      text="$:/plugins/linonetwo/principles/layout/layout"
+      $timestamp="no"
+    />
+    {{$:/plugins/linonetwo/principles/layout/icon}}
+    <<lingo OpenPrinciplesLayout>>
+  </$button>
+\end

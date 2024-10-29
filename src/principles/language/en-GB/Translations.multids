@@ -8,3 +8,5 @@ Configs/RootTiddler/Caption: Root node tiddler name
 Configs/RootTiddler/Description: Defaults to "<<defaultRootTiddler>>", all outline node tiddler names are stored in the `stream-list` field of this tiddler for indexing purposes. You can change this to any other tiddler name you like.
 Deck/Name: My Principles
 Deck/Description: A gentleman knows what to do and what to refrain from. As one who reviews the past to gain new insights can be a mentor.
+BackToStandardLayout: Standard Layout
+OpenPrinciplesLayout: Open Principles Layout

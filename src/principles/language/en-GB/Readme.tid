@@ -1,13 +1,16 @@
 title: $:/plugins/linonetwo/principles/language/en-GB/Readme
 
 \procedure lingo-base() $:/plugins/linonetwo/principles/language/
+\import [[$:/plugins/linonetwo/principles/layout/back-to-standard-layout]]
 
 ! <<lingo Name>>
 
 <<lingo Description>>
 
-[ext[Principles|https://www.principles.com]] in the book is organized in tree structure, and I hope each could be linked from the diary or other notes, and revisit by [ext[tidme plugin|https://talk.tiddlywiki.org/t/1203]], so this plugin integrate the [[Streams plugin|$:/plugins/linonetwo/streams-outliner-lib]] to input the outline of principles.
+[ext[Principles|https://www.principles.com]] in the book is organized in tree structure, and I hope each could be linked from the diary or other notes, and revisit by [ext[Tidme plugin|$:/plugins/tidme/fsrs4tw]], so this plugin integrate the [[Streams plugin|$:/plugins/linonetwo/streams-outliner-lib]] to input the outline of principles.
 
 !! Usage
 
-Open the Principles layout, you will see an outline UI provided by the [[Streams plugin|$:/plugins/linonetwo/streams-outliner-lib]].
+<<open-principles-layout-button>>, you will see an outline UI provided by the [[Streams plugin|$:/plugins/linonetwo/streams-outliner-lib]].
+
+After input, you can use the <<back-to-standard-layout-button>> button at the top left to return to the standard layout.

@@ -8,3 +8,5 @@ Configs/RootTiddler/Caption: 根节点条目名
 Configs/RootTiddler/Description: 默认使用「<<defaultRootTiddler>>」，所有大纲节点的条目名都会存储在这个条目的 `stream-list` 字段中，供索引使用。你可以修改为其它你喜欢的条目名。
 Deck/Name: 我的原则
 Deck/Description: 君子有所为，有所不为。温故而知新，可以为师矣。
+BackToStandardLayout: 返回标准布局
+OpenPrinciplesLayout: 打开原则布局

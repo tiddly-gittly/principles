@@ -19,3 +19,13 @@
   text-decoration: underline;
   text-underline-offset: 0.3em;
 }
+.principles-container .principles-back-to-standard-layout-button {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  opacity: 0.2;
+  transition: opacity 0.5s;
+}
+.principles-container .principles-back-to-standard-layout-button:hover {
+  opacity: 1;
+}
