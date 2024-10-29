@@ -15,6 +15,6 @@ state_due: [state[2]has[due]] -[!days:due[1]]
 state_learn: [state[1]] [state[3]] :filter[{!!due}compare:date:lt<now [UTC]YYYY0MM0DD0hh0mm0ss0XXX>]
 state_new: [!has[state]] [state[0]]
 tags: $:/tags/TidmeDeck
-title: $:/plugins/linonetwo/principles/Deck/IntentionTowerDeck
+title: $:/plugins/linonetwo/principles/deck/PrinciplesDeck
 type: text/vnd.tiddlywiki
 unfold_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/unfold}}
