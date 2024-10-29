@@ -1,0 +1,27 @@
+title: $:/plugins/linonetwo/principles/layout/layout
+name: <<lingo Name $:/plugins/linonetwo/principles/language/>>
+icon: $:/plugins/linonetwo/principles/layout/icon
+description: <<lingo Description $:/plugins/linonetwo/principles/language/>>
+tags: $:/tags/Layout
+
+\whitespace trim
+\import [subfilter{$:/core/config/GlobalImportFilter}]
+\define containerClasses()
+tc-page-container tc-language-$(languageTitle)$ principles-container
+\end
+
+\procedure redirected-navigate-actions()
+  <$action-setfield $tiddler="$:/layout" text="" />
+  <$action-navigate $to=<<event-navigateTo>> />
+\end
+
+<$navigator story="$:/StoryList" history="$:/HistoryList" openLinkFromInsideRiver={{$:/config/Navigation/openLinkFromInsideRiver}} openLinkFromOutsideRiver={{$:/config/Navigation/openLinkFromOutsideRiver}} relinkOnRename={{$:/config/RelinkOnRename}}>
+	<$messagecatcher $tm-navigate=<<redirected-navigate-actions>>>
+		{{$:/core/ui/CommandPaletteTemplate}}
+		<div class=<<containerClasses>>>
+			<main>
+				{{$:/plugins/linonetwo/principles/UI/principle-outline}}
+			</main>
+		</div>
+	</$messagecatcher>
+</$navigator>

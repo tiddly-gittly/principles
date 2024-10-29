@@ -11,4 +11,4 @@ caption: <<lingo Name $:/plugins/linonetwo/principles/language/>>
 !! <<lingo Configs/PluginConfigs/Caption>>
 
 ;<<lingo Configs/RootTiddler/Caption>>
-:<$wikify name=defaultRootTiddler text="<<lingo Name>>"><$edit-text tiddler="$:/plugins/linonetwo/principles/configs/RootTiddler" tabindex=-1 focus=false cancelPopups="yes" fileDrop=no tag="input" placeholder=<<defaultRootTiddler>> /> <<lingo Configs/RootTiddler/Description>></$wikify>
+:<$wikify name="defaultRootTiddler" text="<<lingo Name>>"><$edit-text tiddler="$:/plugins/linonetwo/principles/configs/RootTiddler" tabindex=-1 focus=false cancelPopups="yes" fileDrop=no tag="input" placeholder=<<defaultRootTiddler>> /> <<lingo Configs/RootTiddler/Description>></$wikify>

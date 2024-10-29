@@ -1,3 +1,6 @@
-.tc-example-widget {
-    background: cyan;
+.principles-container {
+  height: 100vh;
+  width: 80vw;
+  margin-left: 10vw;
+  padding-top: 2em;
 }
