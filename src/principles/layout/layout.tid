@@ -23,7 +23,7 @@ tc-page-container tc-language-$(languageTitle)$ principles-container
 			<<back-to-standard-layout-button>>
 			<main>
 				<h1>
-					<$wikify name="defaultRootTiddler" text="<<lingo Name $:/plugins/linonetwo/principles/language/>>">
+					<$wikify name="defaultRootTiddler" text="<<lingo Name $:/plugins/linonetwo/principles/language/>>" mode="inline">
 						<$set name="rootTiddler" value={{$:/plugins/linonetwo/principles/configs/RootTiddler}} emptyValue=<<defaultRootTiddler>>>
 							<<rootTiddler>>
 						</$set>
