@@ -13,6 +13,16 @@ title: $:/plugins/linonetwo/principles/language/zh-Hans/Readme
 
 !! 使用方法
 
+!!! 录入
+
 <<open-principles-layout-button>>，你会看到一个由[[Streams插件|$:/plugins/linonetwo/streams-outliner-lib]]提供的大纲UI。
 
+你可以阅读[ext[原则|https://www.principles.com]]以获得一些灵感，然后在大纲中输入你自己的原则。不要直接从书中复制所有原则黏贴过来，因为只有你相信的原则才会起作用。也不用急着一次性输入所有原则，这个插件就是为了方便你用碎片时间随时录入的。
+
 输入完成后，你可以使用左上角的 <<back-to-standard-layout-button>> 按钮来返回标准布局。
+
+!!! 回顾
+
+在记录了大量自己的原则后，点击侧边栏顶部的页面工具栏上的「墨鱼插件」按钮 {{$:/plugins/tidme/fsrs4tw/home}} ，可以打开间隔重复复习工具。
+
+选择「<<lingo Deck/Name $:/plugins/linonetwo/principles/language/>>」牌组旁边的播放按钮{{$:/plugins/tidme/fsrs4tw/icons/start}}，开始根据科学的时间安排，回顾你的原则，让它们深入脑海。回顾时你可以直接编辑修改原则，从而不断完善它们，知行合一。

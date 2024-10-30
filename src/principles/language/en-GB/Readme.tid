@@ -13,6 +13,16 @@ This plugin allows you to record your life principles in the form of an outline,
 
 !! Usage
 
+!!! Input
+
 <<open-principles-layout-button>>, you will see an outline UI provided by the [[Streams plugin|$:/plugins/linonetwo/streams-outliner-lib]].
 
+You can read the [ext[Principles|https://www.principles.com]] to get some inspiration, and then input your own principles in the outline. Don't directly copy all the principles from the book, because only the principles that you believe will take effect. Also, don't rush to input all the principles at once, this plugin is designed to make it easy for you to input them at any time with fragmented time.
+
 After input, you can use the <<back-to-standard-layout-button>> button at the top left to return to the standard layout.
+
+!!! Review
+
+After recording a large number of your own principles, click the "Tidme Plugin" button {{$:/plugins/tidme/fsrs4tw/home}} on the page toolbar at the top of the sidebar, to open the spaced repetition review tool.
+
+Select the play button {{$:/plugins/tidme/fsrs4tw/icons/start}} next to the "<<lingo Deck/Name $:/plugins/linonetwo/principles/language/>>" deck, start reviewing your principles according to scientific schedule, let them sink into your mind. During the review, you can directly edit and modify the principles, so as to continuously improve them, and integrate knowledge with action.
