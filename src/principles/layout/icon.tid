@@ -2,4 +2,4 @@ title: $:/plugins/linonetwo/principles/layout/icon
 tags: $:/tags/Image
 
 \parameters (size:"22pt")
-<svg width=<<size>> height=<<size>> class="tc-image-ipk-curve-adjustment-outline tc-image-button" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" fill="black" fill-opacity="0.01"/><rect x="4" y="4" width="40" height="40" fill="none" stroke="black" stroke-width="4" stroke-linejoin="round"/><path d="M38 10C32 10 27 14 24 24C21 34 16 38 10 38" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg width=<<size>> height=<<size>> class="tc-image-ipk-curve-adjustment-outline tc-image-button" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" fill="currentColor" fill-opacity="0.01"/><rect x="4" y="4" width="40" height="40" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/><path d="M38 10C32 10 27 14 24 24C21 34 16 38 10 38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
