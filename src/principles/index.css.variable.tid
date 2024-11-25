@@ -1,0 +1,13 @@
+title: $:/plugins/linonetwo/principles/style.css.variable
+tags: $:/tags/Stylesheet
+list-after: $:/plugins/linonetwo/principles/style.css
+
+/** fix android status bar */
+<% if [{$:/info/tidgi-mobile}match[yes]] %>
+.principles-container h1 {
+    margin-top: 2em;
+}
+.principles-container .principles-back-to-standard-layout-button {
+  top: 3em;
+}
+<% endif %>
