@@ -2,7 +2,6 @@ title: $:/plugins/linonetwo/principles/UI/principle-outline
 
 <$wikify name="defaultRootTiddler" text="<<lingo Name $:/plugins/linonetwo/principles/language/>>" mode="inline">
   <$set name="rootTiddler" value={{$:/plugins/linonetwo/principles/configs/RootTiddler}} emptyValue=<<defaultRootTiddler>>>
-    <$log rootTiddler=<<rootTiddler>> />
     <$transclude
       $variable="stream-outliner"
       currentTiddler=<<rootTiddler>>
