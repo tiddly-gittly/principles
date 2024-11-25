@@ -11,8 +11,8 @@
         "plugin-type": "plugin",
         "source": "https://github.com/tiddly-gittly/tiddlywiki-plugins",
         "stability": "STABILITY_2_STABLE",
-        "version": "2.0.1",
-        "Modern.TiddlyDev#SHA256-Hashed": "6fd05f0ac4934c3afc28245ebe5618473ff7217f79b7eb2a7d9b278dd8f6befa",
+        "version": "2.0.2",
+        "Modern.TiddlyDev#SHA256-Hashed": "dbf5d1364e9c3f8b2aa05fe5575c0fbc90b4c42f4f75e9d09cecc26f8963ddc9",
         "name": "Command Palette 命令菜单"
     }
 ]
