@@ -1,0 +1,14 @@
+title: $:/plugins/linonetwo/principles/UI/outline-item-view-template
+tags: $:/tags/ViewTemplate
+list-after: $:/core/ui/ViewTemplate/body
+
+<%if [<currentTiddler>has[stream-type]] %>
+  <%if [linonetwo.principles[]title<currentTiddler>] %>
+    <$transclude
+      $variable="stream-outliner"
+      currentTiddler=<<currentTiddler>>
+      newNodeTitle="<<stream-root-title>>-<<now [UTC]YYYY0MM0DD0hh0mm0ssXXX>>"
+      id={{{ [<currentTiddler>addsuffix[-outline]] }}}
+    />
+  <%endif%>
+<%endif%>
