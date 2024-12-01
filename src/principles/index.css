@@ -6,6 +6,10 @@
   padding-top: 2em;
   overflow-x: visible;
   overflow-y: auto;
+  /** make container a offsetParent, so context menu position is correct inside scrollable container */
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /* Center the header, and make it classical and formal */
 .principles-container h1 {
